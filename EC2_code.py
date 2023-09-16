@@ -4,7 +4,7 @@ import json
 
 # MQTT settings
 mqtt_broker_host = "test.mosquitto.org"  # Assuming the MQTT broker is running on the same EC2 instance
-mqtt_topic = "temperature_humidity"
+mqtt_topic  = "temperature_humidity"
 
 # PostgreSQL settings
 db_host = "localhost"
